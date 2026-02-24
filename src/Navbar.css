@@ -9,35 +9,18 @@
     height: 60px;
     padding: 0 40px;
     align-items: center;
-    border-bottom: solid 1px white;
 }
 .logo h1 {
   font-size: 40px;
   font-family: "LaFemina";
-
-  /* gradient */
-  background: linear-gradient(90deg, #fb00e2, #e31b8c, rgb(255, 128, 0), #fb00e2);
-  background-size: 300% 100%;
-
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-  /* animation */
-  animation: gradientMove 4s linear infinite;
 }
 
-/* animation logic */
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 300% 50%;
-  }
-}
 
 .pages{
-    width: 45%;
+    width: 40%;
 }
 .list{
     display :flex;
