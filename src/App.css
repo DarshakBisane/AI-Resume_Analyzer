@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "LaFemina";
+  src: url("./assets/fontstyle.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,96 @@
+.navbar{
+    margin: 5px auto;
+    width: 100%;
+    display :flex;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 40px;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.logo h1 {
+  font-size: 40px;
+  font-family: "LaFemina";
+
+  /* gradient */
+  background: linear-gradient(90deg, #fb00e2, #e31b8c, rgb(255, 128, 0), #fb00e2);
+  background-size: 300% 100%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* animation */
+  animation: gradientMove 4s linear infinite;
+}
+
+/* animation logic */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.pages{
+    width: 45%;
+}
+.list{
+    display :flex;
+    justify-content: space-between;
+}
+.listitem{
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.list li{
+  list-style: none;
+  font-size: 13px;
+}
+.list li button{
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #000000;
+  margin-top: -5px;
+  border: solid 1px rgb(255, 255, 255);
+}
+.list li button:hover{
+  background-color: #000000;
+  border: solid 1px rgb(255, 255, 255);
+  color: white;
+  
+}
+/* underline */
+.listitem::after{
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%); /* center positioning */
+  width: 0;
+  border-radius: 10px;
+  height: 2px;
+  background: #fffb00;
+  transition: width 0.3s ease;
+}
+
+/* hover */
+.listitem:hover{
+  color: #fffb00;
+  text-shadow:0 0 20px  #fffb00;
+}
+
+/* center se expand */
+.listitem:hover::after{
+  width: 100%;
+}
