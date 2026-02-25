@@ -2,6 +2,7 @@
   padding: 100px 20px;
   /* background: #0b0b14; */
   text-align: center;
+  mix-blend-mode: screen;
 }
 
 .how-container {

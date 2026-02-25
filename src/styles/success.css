@@ -1,0 +1,89 @@
+.success-section {
+  padding: 120px 8%;
+  background: radial-gradient(circle at top, #0c0f1f 0%, #05060d 80%);
+  text-align: center;
+  color: white;
+}
+
+.success-title {
+  font-size: 30px;
+  color:  #8b5cf6;;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+.success-title:hover{
+  color: yellow;
+}
+
+.success-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.success-card {
+  flex: 1;
+  max-width: 380px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: left;
+  transition: 0.4s ease;
+}
+
+.success-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  box-shadow: 0 20px 40px rgba(139, 92, 246, 0.15);
+}
+
+/* Quote */
+.quote {
+  font-size: 12px;
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+.purple { color: #6c7bff; }
+.violet { color: #8400ff;}
+.cyan { color: #22d3ee; }
+
+.success-card p {
+  color: #d1d5db;
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.profile span {
+  font-size: 13px;
+}
+
+/* Colored role text */
+.purple-text { color: #6c7bff; }
+.violet-text { color: #8400ff; }
+.cyan-text { color: #22d3ee; }

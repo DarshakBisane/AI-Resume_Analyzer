@@ -1,0 +1,128 @@
+.suite-section {
+  padding: 120px 8%;
+  background: radial-gradient(circle at top, #0f1221 0%, #05060d 80%);
+  text-align: center;
+  color: #fff;
+}
+
+.suite-container {
+  margin: auto;
+  overflow: hidden;
+}
+
+.suite-tag:hover{
+    transform: scale(1.4);
+    letter-spacing:4px;
+    color: red;
+}
+
+.suite-tag {
+  color: #a855f7;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  transition: transform ease 0.5s;
+}
+
+.suite-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.suite-title span {
+  color: #8b5cf6;
+}
+
+.suite-title span:hover{
+    color: yellow;
+}
+
+.suite-subtitle {
+  position: relative;
+  top: -10px;
+  color: #9ca3af;
+  max-width: 600px;
+  margin: auto;
+  font-size: 12px;
+  margin-bottom: 70px;
+}
+
+.suite-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.suite-card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  transition: 0.4s ease;
+}
+
+.suite-card:hover {
+  transform: translateY(-10px);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  box-shadow: 0 10px 40px rgba(168, 85, 247, 0.25);
+}
+
+/* Top Gradient Area */
+.card-top {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  background: linear-gradient(180deg, rgb(108, 123, 255, 0.3), transparent);
+  color: #6c7bff;
+}
+
+.card-top.purple {
+  background: linear-gradient(180deg, rgba(168, 85, 247, 0.3), transparent);
+  color: #a855f7;
+}
+
+.card-top.cyan {
+  background: linear-gradient(180deg, rgba(6, 182, 212, 0.3), transparent);
+  color: #06b6d4;
+}
+
+.card-content {
+  padding: 30px;
+  text-align: left;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  color: #9ca3af;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.card-content a {
+  text-decoration: none;
+
+  padding: 5px 10px;
+  font-weight: 500;
+  transition:ease 0.3s;
+}
+
+
+.blue-link{
+    color: #6c7bff;
+}
+
+.purple-link {
+  color: #8400ff;
+}
+
+.cyan-link {
+  color: #06b6d4;
+}

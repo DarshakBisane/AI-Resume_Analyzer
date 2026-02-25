@@ -7,8 +7,9 @@ body {
 
   /* Only Glow Gradients */
   background-image:
-    radial-gradient(circle at 80% 20%, rgba(120, 90, 255, 0.2), transparent 40%),
-    radial-gradient(circle at 20% 80%, rgba(0, 200, 255, 0.15), transparent 40%);
+    radial-gradient(circle at 60% 40%, rgba(3, 0, 15, 0.388), transparent 60%),
+    radial-gradient(circle at 40% 60%, rgba(0, 17, 21, 0.523), transparent 60%),
+    radial-gradient(circle at 60% 40%, rgba(20, 0, 44, 0.523), transparent 60%);
 }
 
 .hero {
@@ -45,8 +46,8 @@ body {
   z-index: 1;
 
   background-image:
-    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
 
   background-size: 40px 40px;
 

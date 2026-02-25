@@ -20,7 +20,7 @@ const CoreFeatures = () => {
           </div>
 
           <button className="view-btn">
-            View all features →
+            <span>View all features →</span>
           </button>
         </div>
 
@@ -39,7 +39,13 @@ const CoreFeatures = () => {
               exactly where you stand before you apply.
             </p>
 
-            <div className="chart-mock"></div>
+            <div className="chart-mock">
+                <div className="mock1"></div>
+                <div className="mock2"></div>
+                <div className="mock3"></div>
+                <div className="mock4"></div>
+                <div className="mock5"></div>
+            </div>
           </div>
 
           {/* Card 2 */}
