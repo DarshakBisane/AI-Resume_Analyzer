@@ -18,9 +18,9 @@ const Footer = () => {
           </p>
 
           <div className="social-icons">
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="/footer"><FaTwitter /></a>
+            <a href="/footer"><FaLinkedinIn /></a>
+            <a href="/footer"><FaInstagram /></a>
           </div>
         </div>
 
@@ -28,11 +28,11 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Product</h3>
           <ul>
-            <li><a href="#">Resume Scorer</a></li>
-            <li><a href="#">Cover Letter Generator</a></li>
-            <li><a href="#">Interview Prep</a></li>
-            <li><a href="#">Career Roadmap</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="/footer">Resume Scorer</a></li>
+            <li><a href="/footer">Cover Letter Generator</a></li>
+            <li><a href="/footer">Interview Prep</a></li>
+            <li><a href="/footer">Career Roadmap</a></li>
+            <li><a href="/footer">Pricing</a></li>
           </ul>
         </div>
 
@@ -40,11 +40,11 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Resources</h3>
           <ul>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Resume Templates</a></li>
-            <li><a href="#">Career Advice</a></li>
-            <li><a href="#">Success Stories</a></li>
-            <li><a href="#">Help Center</a></li>
+            <li><a href="/footer">Blog</a></li>
+            <li><a href="/footer">Resume Templates</a></li>
+            <li><a href="/footer">Career Advice</a></li>
+            <li><a href="/footer">Success Stories</a></li>
+            <li><a href="/footer">Help Center</a></li>
           </ul>
         </div>
 
@@ -77,9 +77,9 @@ const Footer = () => {
         <p>© 2024 AI Resume Analyser. All rights reserved.</p>
 
         <div className="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Cookie Policy</a>
+          <a href="/footer">Privacy Policy</a>
+          <a href="/footer">Terms of Service</a>
+          <a href="/footer">Cookie Policy</a>
         </div>
       </div>
     </footer>
