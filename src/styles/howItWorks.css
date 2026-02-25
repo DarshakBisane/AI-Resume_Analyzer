@@ -1,0 +1,132 @@
+.how-section {
+  padding: 100px 20px;
+  /* background: #0b0b14; */
+  text-align: center;
+}
+
+.how-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.how-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.how-subtitle {
+  color: #9ca3af;
+  margin-bottom: 70px;
+  font-size: 14px;
+}
+
+.how-steps {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.how-line {
+  position: absolute;
+  top: 60px; /* icon ke center ke around adjust karo */
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(99, 101, 241, 0.6),
+    rgba(138, 92, 246, 0.6),
+    rgba(6, 181, 212, 0.6),
+    transparent
+  );
+  z-index: 0;
+}
+
+.how-card {
+  padding: 10px 25px;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.how-icon {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #1c1c26;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.how-icon svg {
+  transition: transform 0.3s ease;
+}
+
+.how-card:hover .upicon {
+  box-shadow: 0 0 50px 5px rgba(77, 79, 239, 0.35);
+}
+
+.how-card:hover .aiicon {
+  box-shadow: 0 0 50px 5px rgba(169, 85, 247, 0.35);
+}
+
+.how-card:hover .fbicon {
+  box-shadow: 0 0 50px 5px rgba(6, 182, 212, 0.35);
+}
+
+.how-card:hover .how-icon svg {
+  transform: scale(1.2);
+}
+
+.upload{
+  color: rgb(99 102 241 / var(--tw-text-opacity, 1));
+  border: solid 1px rgb(99 102 241 / var(--tw-text-opacity, 0.25));
+}
+
+.ai{
+  color: rgb(168 85 247 / var(--tw-text-opacity, 1));
+  border: solid 1px rgb(168 85 247 / var(--tw-text-opacity, 0.25));
+}
+
+.feedback{
+  color: rgb(6 182 212 / var(--tw-text-opacity, 1)); 
+  border: solid 1px rgb(6 182 212 / var(--tw-text-opacity, 0.25)); 
+}
+
+.step-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing:1px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: rgba(99, 102, 241, 0.15);
+  margin-bottom: 15px;
+}
+
+.how-card h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.how-card p {
+  color: #9ca3af;
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}

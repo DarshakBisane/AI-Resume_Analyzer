@@ -1,10 +1,11 @@
-import React from "react";
-import "./landing.css";
+import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import "../styles/hero.css";
+import profile from "../assets/CM25D004.jpeg";
 
-export default function Landing() {
+export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-left">
@@ -37,7 +38,7 @@ export default function Landing() {
       <div className="hero-right">
         <div className="resume-card">
           <div className="profile-row">
-            <div className="avatar"><img src="./CM25D004.jpeg" alt="Avtar"/></div>
+            <div className="avatar"><img src={profile} alt="Avtar"/></div>
             <div className="lines">
               <div className="line1"></div>
               <div className="line short1"></div>
@@ -61,21 +62,21 @@ export default function Landing() {
         </div>
 
         <div className="flyingdiv div1">
-          <div className="avatar"><FontAwesomeIcon icon={faWandMagicSparkles} /></div>
+            <div className="flyicon ic1"><FontAwesomeIcon icon={faWandMagicSparkles} /></div>
             <div className="keys">
-              <div className="">AI Suggestion</div>
-              <div className="">Action Verbs</div>
+              <div className="title">AI Suggestion</div>
+              <div className="description">Action Verbs</div>
             </div>
         </div>
 
         <div className="flyingdiv div2">
-          <div className="avatar"><FontAwesomeIcon icon={faCheck} /></div>
+            <div className="flyicon ic2">< FontAwesomeIcon icon={faCheck} /></div>
             <div className="keys">
-              <div className="">Keywords</div>
-              <div className="">Optimized</div>
+              <div className="title">Keywords</div>
+              <div className="description">Optimized</div>
             </div>
         </div>
       </div>
     </section>
-  );
+  )
 }
