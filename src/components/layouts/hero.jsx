@@ -2,8 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import "../styles/hero.css";
-import profile from "../assets/CM25D004.jpeg";
+import "../../styles/hero.css";
+import profile from "../../assets/CM25D004.jpeg";
 
 export default function Hero() {
   return (

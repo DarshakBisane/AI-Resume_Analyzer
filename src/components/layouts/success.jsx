@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/success.css";
+import "../../styles/success.css";
 import { FaQuoteLeft } from "react-icons/fa";
 
 const SuccessStories = () => {

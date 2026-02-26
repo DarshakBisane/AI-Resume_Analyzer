@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 100px;
+  padding: 0 100px;
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -78,7 +78,7 @@ body {
 }
 
 .hero-title {
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 600;
   line-height: 1.1;
   margin: 0;
@@ -96,24 +96,24 @@ body {
 }
 
 .hero-description {
-  margin-top: 25px;
-  font-size: 18px;
+  margin-top: 20px;
+  font-size: 14px;
   color: #9ca3af;
   max-width: 500px;
   line-height: 1.6;
 }
 
 .hero-buttons {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   gap: 20px;
 }
 
 .primary-btn {
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 40px;
   border: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing:1px;
   background: linear-gradient(90deg, #7f5af0, #9b5de5);
@@ -127,8 +127,9 @@ body {
 }
 
 .secondary-btn {
-  padding: 15px 25px;
+  padding: 10px 20px;
   border-radius: 40px;
+  font-size: 12px;
   letter-spacing:1px;
   border: 1px solid #444;
   background: transparent;
@@ -157,9 +158,9 @@ body {
 .resume-card {
   background: linear-gradient(145deg, #12121a, #0f111a);
   border-radius: 12px;
-  height: 70vh;
+  height: 55vh;
   padding: 25px;
-  width: 80%;
+  width: 60%;
   max-width: 420px;
   border: 1px solid rgb(99 102 241 / 0.25);
 

@@ -1,7 +1,7 @@
-import Navbar from './navbar.jsx';
+import Navbar from './components/layouts/navbar.jsx';
 import './App.css';
 import Landing from './pages/landing.jsx';
-import Footer from './components/footer.jsx'
+import Footer from './components/layouts/footer.jsx'
 
 function App() {
   return (

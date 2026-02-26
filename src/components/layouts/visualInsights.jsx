@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/visualInsights.css";
+import "../../styles/visualInsights.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 

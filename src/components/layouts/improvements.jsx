@@ -1,4 +1,4 @@
-import "../styles/improvements.css";
+import "../../styles/improvements.css";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments, faFilePen, faMapLocationDot } from "@fortawesome/free-solid-svg-icons";

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/howItWorks.css';
+import '../../styles/howItWorks.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudArrowUp, faMicrochip, faBullseye } from "@fortawesome/free-solid-svg-icons";
 

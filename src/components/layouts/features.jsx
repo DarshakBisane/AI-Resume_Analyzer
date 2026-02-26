@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/features.css";
+import "../../styles/features.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartSimple, faMagnifyingGlass, faWandMagicSparkles } from "@fortawesome/free-solid-svg-icons";
 
